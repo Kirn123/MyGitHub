@@ -49,6 +49,7 @@ public class AddToCartPageTest extends BaseClass {
 		boolean result=addToCartPage.validateAddtoCart();
 		Assert.assertTrue(result);
 		Log.endTestCase("addToCartTest");
+		Log.endTestCase("addToCartTest");
 		
 	}
 }
