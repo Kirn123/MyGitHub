@@ -6,6 +6,7 @@ public class StringName {
 		StringBuilder sb = new StringBuilder();
 		sb.append(Name);
 		System.out.println(Name);
+		int age = 31;
 		
 		
 	}
