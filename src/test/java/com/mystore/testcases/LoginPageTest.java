@@ -2,10 +2,10 @@
  * 
  */
 package com.mystore.testcases;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -50,6 +50,9 @@ public class LoginPageTest extends BaseClass {
 	    Assert.assertEquals(actualURL, expectedURL);
 	    Log.info("Login is Sucess");
 	    Log.endTestCase("loginTest");
+	    System.out.println("Hello Naveen");
+	    String name = "Kiran";
+	    System.out.println(name);
 	}
 
 }
