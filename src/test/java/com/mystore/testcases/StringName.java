@@ -7,7 +7,7 @@ public class StringName {
 		sb.append(Name);
 		System.out.println(Name);
 		int age = 31;
-		
+		int age2 =22;		
 		
 	}
 
